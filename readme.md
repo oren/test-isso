@@ -1,5 +1,6 @@
-# Build
+# Isso (comments engine) using Docker
 
+First run the website - [https://github.com/oren/test-website](https://github.com/oren/test-website)
 
     git clone git@github.com:oren/test-isso.git
     cd test-isso
