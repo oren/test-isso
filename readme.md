@@ -1,7 +1,8 @@
 # Build
 
 
-    git clone 
+    git clone git@github.com:oren/test-isso.git
+    cd test-isso
     sudo cp -p isso.conf /srv/isso/
     docker build -t isso:latest .
     docker run -d -p 8080:8080 --name isso -v /srv/isso/:/opt/isso -v /srv/issodb/:/opt/issodb isso:latest
