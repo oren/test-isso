@@ -1,8 +1,8 @@
 # Isso (comments engine) using Docker
 
-http://posativ.org/isso/
+Isso - http://posativ.org/isso/
 
-First run the website - [https://github.com/oren/test-website](https://github.com/oren/test-website)
+## Run
 
     git clone git@github.com:oren/test-isso.git
     cd test-isso
@@ -11,4 +11,6 @@ First run the website - [https://github.com/oren/test-website](https://github.co
     docker run -d -p 8080:8080 --name isso -v /srv/isso/:/opt/isso -v /srv/issodb/:/opt/issodb isso:latest
 
 To test it go to: [http://localhost:8080/demo](http://localhost:8080/demo).
+
+Now run the website - [https://github.com/oren/test-website](https://github.com/oren/test-website)
 
